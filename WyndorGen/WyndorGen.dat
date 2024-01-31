@@ -1,0 +1,19 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: Admin
+ * Creation Date: 16 Jan 2024 at 22:26:59
+ *********************************************/
+
+
+
+ numProducts = 2;
+ numPlants = 3;
+ 
+ profit = [3, 5];
+ 
+ plantCapacity = [4, 12, 18];
+ timePerBatch = [
+ 	[1, 0], 
+ 	[0, 2], 
+ 	[3, 2]
+];
