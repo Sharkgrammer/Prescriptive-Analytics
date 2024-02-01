@@ -1,7 +1,12 @@
-quarters = 4;
-nPrice = 400;
-otPrice = 450;
-holdCost = 20;
-initInv = 10;
-maxNProd = 40;
-demand = [40, 60, 75, 25];
+
+	quarters = 4;
+	nPrice = 400;
+	otPrice = 450;
+	holdCost = 20;
+	
+	initInv = 10;
+	maxNProd = 40;
+	
+	demand = [40, 60, 75, 25];
+
+

@@ -10,7 +10,8 @@ minimize sum (d in rangeDays) x[d];
 
 subject to {
   
-  forall(d in rangeDays)
-	sum(i in (d + 1)..(d + days - daysOff)) x[((i - 1) mod days) + 1] >= nDemand[d];
+  forall(d in rangeDays){
+    	sum(i in (d + 1)..(d + days - daysOff)) x[((i - 1) mod days) + 1] >= nDemand[d];
+  }
   
 }

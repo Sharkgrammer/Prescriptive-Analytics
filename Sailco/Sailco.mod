@@ -18,11 +18,11 @@ minimize sum(q in qRange)
 	((nPrice * x[q]) + (otPrice * y[q]) + (holdCost * i[q]));
 
 subject to {
-	i[0] == initInv;
+	inventory: i[0] == initInv;
 	
-	forall(q in qRange) i[q - 1] + x[q] + y[q] - i[q] == demand[q];
+	qDemand: forall(q in qRange) i[q - 1] + x[q] + y[q] - i[q] == demand[q];
 	
-	forall(q in qRange) x[q] <= maxNProd;
+	xProd: forall(q in qRange) x[q] <= maxNProd;
 };
  
  
