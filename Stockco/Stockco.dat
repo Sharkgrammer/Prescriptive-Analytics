@@ -1,0 +1,7 @@
+investments = 4;
+capital = 14;
+
+NPV = [16, 22, 12, 8];
+outflow = [5, 7, 4, 3];
+
+

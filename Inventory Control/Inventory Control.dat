@@ -1,0 +1,8 @@
+months = 12;
+holdingCost = 1;
+orderCost = 100;
+orderMax = 39;
+initInventory = 0;
+
+demand = [3, 22, 13, 6, 9, 10, 7, 2, 13, 9, 16, 4];
+
