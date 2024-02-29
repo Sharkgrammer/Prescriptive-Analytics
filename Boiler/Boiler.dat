@@ -1,0 +1,16 @@
+boilers = 3;
+turbines = 3;
+
+maxEnergy = 8000;
+
+boilerCost = [10, 8, 6];
+turbineCost = [2, 3, 4];
+
+kwh = [4, 5, 6];
+
+boilerMin = [500, 300, 400];
+boilerMax = [1000, 900, 800];
+
+turbineMin = [300, 500, 600];
+turbineMax = [600, 800, 900];
+

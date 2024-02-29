@@ -1,0 +1,15 @@
+citys = 4;
+regions = 4;
+
+lockboxCost = 50;
+maxPerLockbox = 1;
+
+lostInterest = [
+	[28, 84, 112, 112],
+	[60, 20, 50, 50],
+	[96, 60, 24, 60],
+	[64, 40, 40, 16]
+];
+
+
+
