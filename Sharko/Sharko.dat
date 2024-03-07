@@ -1,0 +1,5 @@
+fields = 6;
+maxFields = 2;
+
+costs = [45, 20, 30, 60, 10, 25];
+
