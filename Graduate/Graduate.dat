@@ -1,0 +1,25 @@
+subjects = 7;
+
+minSubject = 2;
+
+
+// You could try to move all the data to the data file
+// but with the constraints in this problem it would get messy
+// the commented code shows an example of doing so
+// but I don't recommend it for this problem.
+
+/*
+Extra variables to help with the messy generlisation
+
+mathCount = 5;
+math = [1, 2, 3, 4, 7];
+
+reqCount = 2;
+reqAmount = 4;
+requirments = [
+	[1, 4],
+	[6, 3],
+	[6, 5],
+	[4, 7]
+];
+*/
