@@ -1,0 +1,32 @@
+k = 3;
+inputCount = 2;
+outputCount = 1;
+dmuCount = 3;
+
+inputs = [
+	[6, 2, 15],
+	[4, 5, 12]
+];
+
+outputs = [
+	[15, 12, 20]
+];
+
+/*
+The data for the second problem
+
+k = 6;
+inputCount = 2;
+outputCount = 2;
+dmuCount = 6;
+
+inputs = [
+	[1.5, 4.0, 3.2, 5.2, 3.5, 3.2],
+	[0.2, 0.7, 1.2, 2.0, 1.2, 0.7]
+];
+
+outputs = [
+	[1.4, 1.4, 4.2, 2.8, 1.9, 1.4],
+	[0.35, 2.1, 1.05, 4.2, 2.5, 1.5]
+];
+*/
