@@ -1,0 +1,13 @@
+crops = 3;
+requiredCrops = 2;
+maxAcre = 500;
+
+beetQuotaPrice = 10;
+beetMax = 6000;
+
+shortfall = [238, 210];
+requirements = [200, 240];
+
+prices = [170, 150, 36];
+acreCosts = [150, 230, 260];
+acreYields = [2.5, 3, 20];
